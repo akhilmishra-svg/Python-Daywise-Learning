@@ -1,0 +1,31 @@
+# Day 2 - Data Types and Type Conversion
+
+# Basic types
+a = 10
+b = 3.14
+c = "Akhil"
+d = True
+
+print(type(a))   # int
+print(type(b))   # float
+print(type(c))   # str
+print(type(d))   # bool
+
+# Implicit conversion
+x = 5
+y = 2.0
+z = x + y
+print(z, type(z))  # 7.0, float
+
+# Explicit conversion
+p = "100"
+q = int(p)
+print(q + 50)  # 150
+
+# Invalid conversion (commented)
+# r = "hello"
+# print(int(r))  # ❌
+
+# Float string to float
+s = "45.67"
+print(float(s))
